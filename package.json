@@ -31,12 +31,10 @@
         "@typescript-eslint/eslint-plugin": "^8.58.1",
         "@typescript-eslint/parser": "^8.58.1",
         "eslint": "^10.2.0",
-        "eslint-config-node": "^4.1.0",
         "eslint-config-standard": "^17.1.0",
         "eslint-plugin-import": "^2.32.0",
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^7.2.1",
-        "eslint-plugin-standard": "^5.0.0",
         "jquery": "^4.0.0",
         "less": "^4.6.4",
         "stylelint": "^17.7.0",
@@ -45,5 +43,14 @@
         "vite": "^8.0.8",
         "vite-plugin-css-injected-by-js": "^4.0.1",
         "vite-plugin-monkey": "^7.1.9"
+    },
+    "pnpm": {
+        "peerDependencyRules": {
+            "allowedVersions": {
+                "eslint": "10",
+                "eslint-plugin-promise": "7",
+                "vite": "8"
+            }
+        }
     }
 }
